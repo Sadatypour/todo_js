@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="gettodolocal()">
+    <section class="hero">
+
+        <div class="box_todo">
+            <header class="heder">
+                <div class="add_task"> <img class="img_add" src="./images/3.png" alt="add_task">
+                    <h3>Add Task</h3>
+                </div>
+                <div class="detail_task">
+                    <h2>To Do list Planer</h2>
+                    <img class="img_add" src="./images/1.png" alt="datail_task">
+                </div>
+            </header>
+
+            <main class="todo_list">
+            </main>
+
+        </div>
+    </section>
+    <div class="modal_screen hidden">
+        <div class="showmodal">
+            <div class="heder_input">
+                <p>Enter New task</p>
+                <img src="./images/2.png" alt="">
+            </div>
+
+
+            <input class="input_task" type="text" maxlength="20">
+            <div class="btn_input">
+                <button class="add">Add Task</button>
+                <button class="back">Cansel</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
